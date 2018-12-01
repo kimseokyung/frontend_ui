@@ -56,14 +56,17 @@ li{
     background-color: rgb(55, 55, 55);
    
     overflow: hidden;
+    
 
 }
 #nav ul.menus li.active{
     background-color:  #ffffff;
     color: #000;
+   
 }
 #nav ul.menus li.active a{
     color: #000000;
+    
 
 }
 
@@ -73,7 +76,7 @@ li{
 }
 
 #nav ul.menus li, #nav ul.icons li{
-    padding: 15px;
+    padding: 20px;
 }
 #nav ul.icons{
     float: right;
@@ -114,9 +117,6 @@ li{
 }
 #footer.contant, #footer.info{
     
-    
-   
-
 }
 
 #footer.contact.inputs{
@@ -148,17 +148,29 @@ li{
     background-color:  rgb(255, 255, 255);
     padding: 15px 10px;
 }
-#footer .info section{
+#footer.info section{
     display:  flex;
+    
 }
+
 #footer .info section h3{
     flex: 1;
+    padding-left: 30px;
 }
 #footer .info section p{
     flex: 2;
+    padding-left: 30px;
+    
 }
 #footer .info section ul{
     flex: 3;
+    padding-left: 30px;
+    
+}
+#footer .info section ul li{
+    float: right;
+    padding-right: 20px;
+    
 }
 #copyright{
     text-align: center;
