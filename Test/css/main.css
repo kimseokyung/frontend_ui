@@ -87,11 +87,21 @@ li{
     
 
 }
-#main.featured{
+#main .featured{
     background-color: #ffffff;
     padding: 40px;
 
 }
+#main .featured section{
+    display: flex;
+
+}
+#main .featured section a{
+   flex: 1;
+
+}
+
+
 #main .featured header h2{
     text-align: center;
     padding: 20px 0px 40px;
